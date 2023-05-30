@@ -5,4 +5,4 @@ RUN mvn clean package -Dskiptests
 FROM openjdk:17.0.1-jdk-slim
 COPY --from=build /target/first_project-0.0.1-SNAPSHOT.jar first_project.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "first_project.jar"]
+ENTRYPOINT ["java", "-jar", "first_project.jar"]git 
