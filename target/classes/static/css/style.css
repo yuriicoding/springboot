@@ -1,0 +1,48 @@
+header, main, footer {
+    border: 1px solid black;
+    margin: 20px;
+}
+
+#mainpart {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    border: 3px dotted rgb(217, 17, 17);
+    margin: 50px;
+    padding: 20px 30px 40px 50px;
+    width: 50%;
+    position: relative;
+    top: -100px;
+    left: 50px;
+    z-index: +1;
+    /*push on top, move to bottom*/
+
+}
+
+a {
+    background-color: grey;
+}
+
+section {
+    padding: 10px;
+    border: 2px dashed red;
+}
+
+.sec1, .sec2 {
+    color: #2b13b8;
+    float: left;
+}
+
+form {
+    clear: left;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
